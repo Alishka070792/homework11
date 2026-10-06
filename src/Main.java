@@ -9,6 +9,18 @@ public class Main {
             System.out.println(year + " год - невисокосный год.");
         }
     }
+    // Метод для 2 задачи
+    public static void softwareType(int clientDeviceYear, int clientOS) {
+        if (clientDeviceYear < 2015 && clientOS == 0) {
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+        } else if (clientDeviceYear < 2015 && clientOS == 1) {
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        } else if (clientDeviceYear >= 2015 && clientOS == 0) {
+            System.out.println("Установите обычную версию для iOS");
+        } else if (clientDeviceYear >= 2015 && clientOS == 1) {
+            System.out.println("Установите обычную версию для Android");
+        }
+    }
 
     public static void main(String[] args) {
 
