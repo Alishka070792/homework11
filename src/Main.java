@@ -1,6 +1,9 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.time.LocalDate;
 public class Main {
+
+
     // Метод для 1 задачи
     public static void checkLeapYear(int year) {
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
@@ -48,7 +51,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Task 3");
-        int days = calculationOfDelivery(95);
+        int days = calculationOfDelivery(105);
         if (days == -1) {
             System.out.println("Доставки нет");
         } else {
