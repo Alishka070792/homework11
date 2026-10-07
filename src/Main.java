@@ -45,6 +45,7 @@ public class Main {
         System.out.println("Task 1");
         Main.checkLeapYear(2025);
         System.out.println();
+        // вывод в консоль верный
 
         System.out.println("Task 2");
         softwareType(2014, 0);
@@ -57,6 +58,6 @@ public class Main {
         } else {
             System.out.println("Потребуется дней: " + days);
         }
-
+        // свыше 100 км верное сообщение выводится в консоль. Доставки нет
     }
 }
